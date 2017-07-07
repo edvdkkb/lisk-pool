@@ -34,7 +34,7 @@ def estimatePayouts (log):
 	d = requests.get (uri)
 	rew = d.json ()['rewards']
 	forged = (int (rew) / 100000000) * PERCENTAGE / 100
-	print ('To distribute: %f LSK' % forged)
+	print ('To distribute: %f SHIFT' % forged)
 	
 	if forged < 0.1:
 		return []
