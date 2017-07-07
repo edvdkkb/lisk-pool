@@ -3,11 +3,11 @@ import json
 import sys
 import time
 
-NODE = "https://wallet.lisknode.io"
+NODE = "wallet.shiftnrg.org"
 NODEPAY = "http://localhost:8000"
 PUBKEY = "120d1c3847bd272237ee712ae83de59bbeae127263196fc0f16934bcfa82d8a4"
 LOGFILE = 'poollogs.json'
-PERCENTAGE = 15
+PERCENTAGE = 50
 MINPAYOUT = 0.2
 SECRET = "SECRET"
 SECONDSECRET = None
