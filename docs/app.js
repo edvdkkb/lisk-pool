@@ -17,7 +17,7 @@ app.controller('indexCtrl', function($scope, $http) {
         }
     });
 
-    $http.get ('https://wallet.testnet.shiftnrg.org/api/delegates/get?username=kanieloutistest').then (function (res) {
+    $http.get ('https://wallet.shiftnrg.org/api/delegates/get?username=kanieloutis').then (function (res) {
         $scope.delegate = res.data.delegate;
     });
 });
